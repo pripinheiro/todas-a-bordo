@@ -1,36 +1,49 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-import logoImg from '../../assets/logoImg.png';
-
 import BannerMain from '../../components/BannerMain';
-import { Container, Header, HeaderContent, Footer, Content } from './styles';
+import Header from '../../components/Header';
+
+import teste from '../../assets/teste.png';
+import { Container, Footer, Content, Card } from './styles';
 
 const Home: React.FC = () => {
 
   return (
     <Container>
+      <Header />
 
+        <h1>Cursos e programas</h1>
 
-      <Header>
-        <HeaderContent>
-          <img src={logoImg} alt="Todas a bordo" />
-
-          <div>
-            <Link to={'/'}>
-              <strong>Home</strong>
-            </Link>
-            <Link to={'/'}>
-              <strong>Blog</strong>
-            </Link>
-            <Link to={'/'}>
-              <strong>Contato</strong>
-            </Link>
-          </div>
-        </HeaderContent>
-      </Header>
-      <BannerMain />
       <Content>
-        <p>Conteúdo principal</p>
+        <Card>
+          <img src={teste} alt="Todas a bordo"/>
+          <strong>Programaria</strong>
+          <button>Conheça</button>
+        </Card>
+        <Card>
+          <img src={teste} alt="Todas a bordo"/>
+          <strong>Programaria</strong>
+          <button>Conheça</button>
+        </Card>
+        <Card>
+          <img src={teste} alt="Todas a bordo"/>
+          <strong>Programaria</strong>
+          <button>Conheça</button>
+        </Card>
+        <Card>
+          <img src={teste} alt="Todas a bordo"/>
+          <strong>Programaria</strong>
+          <button>Conheça</button>
+        </Card>
+        <Card>
+          <img src={teste} alt="Todas a bordo"/>
+          <strong>Programaria</strong>
+          <button>Conheça</button>
+        </Card>
+        <Card>
+          <img src={teste} alt="Todas a bordo"/>
+          <strong>Programaria</strong>
+          <button>Conheça</button>
+        </Card>
       </Content>
       <Footer>
         <p>Rodapé</p>

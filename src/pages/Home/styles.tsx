@@ -1,48 +1,34 @@
 import styled from 'styled-components';
 
-export const Container = styled.div``;
-export const Header = styled.div`
-  padding: 32px 0;
-  background: #000000;
+export const Container = styled.div`
 
-`;
-export const HeaderContent = styled.div`
-  max-width: 1120px;
-  height: 100px;
-  margin: 0 auto;
-  display: flex;
-  align-items: center;
 
-    > img {
-    height: 150px;
-  }
-
-  div {
-    margin-left: auto;
-    margin-top: 120px;
-
-    strong {
-    font-size: 20px;
-    color: #f741ad;
-    margin-left: 10px;
-    text-decoration: none;
-
-      &:hover {
-        opacity: 0.8;
-      }
-
-      a {
-        text-decoration: none;
-      }
-
-    }
+    h1 {
+    text-align: center;
+    padding: 20px;
   }
 `;
 
 export const Content = styled.div`
-  max-width: 1800px;
-  height: 400px;
-  border: 12px solid green;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+
+`;
+
+export const Card = styled.div`
+  flex: 1 1 200px;
+  margin: 10px 10px;
+  width: 350px;
+
+  background-color: tomato;
+
+  img {
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+  }
 `;
 
 export const Footer = styled.div`
@@ -50,3 +36,4 @@ export const Footer = styled.div`
   height: 100px;
   border: 12px solid blue;
 `;
+

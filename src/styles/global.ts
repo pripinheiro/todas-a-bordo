@@ -10,5 +10,6 @@ export default createGlobalStyle`
 
   body, input, a, strong{
     font-family: 'Montserrat', serif;
+    text-decoration: none;
   }
 `
