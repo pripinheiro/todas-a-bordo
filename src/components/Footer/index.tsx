@@ -2,7 +2,7 @@ import React from 'react';
 import { Container } from './styles';
 
 
-const BannerMain: React.FC = () => {
+const Footer: React.FC = () => {
 
   return (
     <Container>
@@ -11,4 +11,4 @@ const BannerMain: React.FC = () => {
   )
 };
 
-export default BannerMain;
+export default Footer;
